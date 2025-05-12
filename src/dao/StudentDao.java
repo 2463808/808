@@ -271,7 +271,7 @@ public boolean save(Student student) throws Exception {
 		if (old == null) {
 			// 学生が存在しなかった場合
 			// プリペアードステートメントにINSERT文をセット
-			statement = connection.prepareStatement("insert into student(no, name, ent_year, class_num, is_attent, school_cd) values(?, ?, ?, ?, ?, ?)");
+			statement = connection.prepareStatement("insert into student(no, name, ent_year, class_num, is_attend, school_cd) values(?, ?, ?, ?, ?, ?)");
 			// プリペアードステートメントに値をバインド
 			statement.setString(1, student.getNo());
 			statement.setString(2, student.getName());
