@@ -1,0 +1,13 @@
+package dao;
+
+import java.sql.ResultSet;
+
+public class TestListStudentDao extends Dao {
+
+	private String baseSql;
+
+	private List<TestListSubject> postFilter(Resultset rSet) throws Exception{
+}
+	public List<TestListSubject> filter(int entYear, String classNum,School school,Subject subject) throws Exception{
+	}
+}
