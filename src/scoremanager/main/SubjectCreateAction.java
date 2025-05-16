@@ -13,7 +13,7 @@ public class SubjectCreateAction extends Action {
 
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-        // セッションからログインユーザー情報を取得
+        //  セッションからログインユーザー情報を取得
         HttpSession session = req.getSession();
         Teacher teacher = (Teacher) session.getAttribute("user");  // ログイン時に user を格納している前提
 

@@ -13,7 +13,7 @@ public class SubjectDeleteAction extends Action {
         // リクエストパラメータ（cd）を取得
         String cd = req.getParameter("cd");
 
-        // DAOを使って対象のSubjectを取得
+        //  DAOを使って対象のSubjectを取得
         SubjectDao subjectDao = new SubjectDao();
         Subject subject = subjectDao.get(cd);
 

@@ -15,7 +15,7 @@ public class SubjectUpdateExecuteAction extends Action {
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
 
-		// ローカル変数の指定 1
+		// ローカル変数の指定   1
 		HttpSession session = req.getSession();
 		Teacher teacher = (Teacher) session.getAttribute("user");
 		String cd = "";

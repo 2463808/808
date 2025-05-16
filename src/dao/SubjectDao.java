@@ -205,7 +205,7 @@ public boolean delete(Subject subject) throws Exception {
 			}
 		}
 	}
-	// 実行件数が1件以上ある場合
+	//  実行件数が1件以上ある場合
 	if (count > 0) {
 		return true;
 	} else

@@ -12,7 +12,7 @@ public class SubjectUpdateAction extends Action {
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
 
-		// ローカル変数の指定 1
+		// ローカル変数の指定  1
 		/*HttpSession session = req.getSession(); // セッション
 		Teacher teacher = (Teacher)session.getAttribute("user");*/
 		String cd = ""; // 学生番号

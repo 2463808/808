@@ -13,7 +13,7 @@ public class SubjectDeleteExecuteAction extends Action {
         // DAO生成
         SubjectDao subjectDao = new SubjectDao();
 
-        // リクエストパラメータから削除対象の科目コードを取得
+        //  リクエストパラメータから削除対象の科目コードを取得
         String cd = req.getParameter("cd");
 
         // 対象のSubjectを取得
