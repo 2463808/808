@@ -50,7 +50,7 @@ public class StudentUpdateExecuteAction extends Action {
 		// なし
 
 		// JSPへフォワード 7
-		req.getRequestDispatcher("student_update_done.jsp").forward(req, res);
+		req.getRequestDispatcher("subjecst_update_done.jsp").forward(req, res);
 	}
 
 }
