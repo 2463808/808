@@ -11,7 +11,7 @@ import bean.School;
 import bean.Subject;
 
 public class SubjectDao extends Dao {
-	//private String baseSql = "select * from student where school_cd=? ";
+	// private String baseSql = "select * from student where school_cd=? ";
 
 	public List<Subject> getAll() throws Exception {
 	    List<Subject> list = new ArrayList<>();
